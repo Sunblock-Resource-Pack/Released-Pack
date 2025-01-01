@@ -1,2 +1,2 @@
-# Released-Pack
-Sunblocks official resource pack 
+# Sunblock Resource Pack
+Sunblocks official public resource pack! 
