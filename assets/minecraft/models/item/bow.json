@@ -1,0 +1,69 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/bow"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -80, 260, -40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -80, -280, 40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/bow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/bow_pulling_2"
+        },
+        { "predicate": { "custom_model_data": 10001 }, "model": "minewave:item/bloodkin/bow" },
+        { "predicate": { "custom_model_data": 10001, "pulling": 1 }, "model": "minewave:item/bloodkin/bow_pulling_0" },
+        { "predicate": { "custom_model_data": 10001, "pulling": 1, "pull": 0.65 }, "model": "minewave:item/bloodkin/bow_pulling_1" },
+        { "predicate": { "custom_model_data": 10001, "pulling": 1, "pull": 0.9 }, "model": "minewave:item/bloodkin/bow_pulling_2" },
+		
+        { "predicate": { "custom_model_data": 10002 }, "model": "minewave:item/turkey/bow" },
+        { "predicate": { "custom_model_data": 10002, "pulling": 1 }, "model": "minewave:item/turkey/bow_pulling_0" },
+        { "predicate": { "custom_model_data": 10002, "pulling": 1, "pull": 0.65 }, "model": "minewave:item/turkey/bow_pulling_1" },
+        { "predicate": { "custom_model_data": 10002, "pulling": 1, "pull": 0.9 }, "model": "minewave:item/turkey/bow_pulling_2" },
+		
+        { "predicate": { "custom_model_data": 10011 }, "model": "minewave:item/elf/bow" },
+        { "predicate": { "custom_model_data": 10011, "pulling": 1 }, "model": "minewave:item/elf/bow_0" },
+        { "predicate": { "custom_model_data": 10011, "pulling": 1, "pull": 0.65 }, "model": "minewave:item/elf/bow_1" },
+        { "predicate": { "custom_model_data": 10011, "pulling": 1, "pull": 0.9 }, "model": "minewave:item/elf/bow_2" },
+		
+        { "predicate": { "custom_model_data": 10012 }, "model": "minewave:item/newyears/bow" },
+        { "predicate": { "custom_model_data": 10012, "pulling": 1 }, "model": "minewave:item/newyears/bow_0" },
+        { "predicate": { "custom_model_data": 10012, "pulling": 1, "pull": 0.65 }, "model": "minewave:item/newyears/bow_1" },
+        { "predicate": { "custom_model_data": 10012, "pulling": 1, "pull": 0.9 }, "model": "minewave:item/newyears/bow_2" }
+    ]
+}

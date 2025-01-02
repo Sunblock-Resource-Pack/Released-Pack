@@ -1,0 +1,40 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "item/fishing_rod_cast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10001
+            },
+            "model": "minewave:item/bloodkin/fishing_rod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10001,
+                "cast": 1
+            },
+            "model": "minewave:item/bloodkin/fishing_rod_cast"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10011
+            },
+            "model": "minewave:item/elf/fishing_rod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10011,
+                "cast": 1
+            },
+            "model": "minewave:item/elf/fishing_rod_cast"
+        }
+    ]
+}

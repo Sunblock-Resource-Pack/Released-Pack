@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/leather_helmet",
+        "layer1": "minecraft:item/leather_helmet_overlay"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 10001
+            },
+            "model": "minewave:item/bloodkin/helmet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10003
+            },
+            "model": "minewave:item/neptune/armor/helmet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10004
+            },
+            "model": "minewave:item/turkey/helmet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10010
+            },
+            "model": "minewave:item/christmas/helmet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10011
+            },
+            "model": "minewave:item/elf/helmet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10012
+            },
+            "model": "minewave:item/newyears/helmet"
+        }
+    ]
+}

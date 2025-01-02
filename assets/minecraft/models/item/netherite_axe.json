@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "item/netherite_axe"
+  },
+"overrides": 
+[
+  { "predicate": { "custom_model_data": 10001}, "model": "minewave:item/bloodkin/axe"},
+  { "predicate": { "custom_model_data": 10002}, "model": "minewave:item/bloodkin/sickle"},
+  { "predicate": { "custom_model_data": 10003}, "model": "minewave:item/neptune/axe"},
+  { "predicate": { "custom_model_data": 10010}, "model": "minewave:item/christmas/axe"},
+  { "predicate": { "custom_model_data": 10011}, "model": "minewave:item/elf/axe"}
+]
+}

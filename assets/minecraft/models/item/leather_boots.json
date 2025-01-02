@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/leather_boots",
+        "layer1": "minecraft:item/leather_boots_overlay"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 10001
+            },
+            "model": "minewave:item/bloodkin/boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10003
+            },
+            "model": "minewave:item/neptune/armor/boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10004
+            },
+            "model": "minewave:item/turkey/boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10010
+            },
+            "model": "minewave:item/christmas/boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10011
+            },
+            "model": "minewave:item/elf/boots"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10012
+            },
+            "model": "minewave:item/newyears/boots"
+        }
+    ]
+}

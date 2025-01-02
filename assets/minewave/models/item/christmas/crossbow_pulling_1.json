@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "minewave:item/christmas/crossbow_1"
+  }
+}

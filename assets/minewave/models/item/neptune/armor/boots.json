@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minewave:item/neptune/armor/boots",
+        "layer1": "minewave:item/neptune/armor/boots"
+    }
+}

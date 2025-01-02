@@ -1,0 +1,16 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "item/netherite_sword"
+  },
+"overrides": 
+[
+  { "predicate": { "custom_model_data": 10001}, "model": "minewave:item/bloodkin/sword"},
+  { "predicate": { "custom_model_data": 10004}, "model": "minewave:item/neptune/sword"},
+  { "predicate": { "custom_model_data": 10005}, "model": "minewave:item/turkey/sword"},
+  { "predicate": { "custom_model_data": 10010}, "model": "minewave:item/christmas/sword"},
+  { "predicate": { "custom_model_data": 10011}, "model": "minewave:item/elf/sword"},
+  { "predicate": { "custom_model_data": 10012}, "model": "minewave:item/newyears/sword"}
+]
+
+}

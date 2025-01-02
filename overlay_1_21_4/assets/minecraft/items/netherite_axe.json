@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_axe"
+        },
+        "entries": [
+            {
+                "threshold": 10001,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/bloodkin/axe"
+                }
+            },
+            {
+                "threshold": 10002,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/bloodkin/sickle"
+                }
+            },
+            {
+                "threshold": 10003,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/neptune/axe"
+                }
+            },
+            {
+                "threshold": 10010,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/christmas/axe"
+                }
+            },
+            {
+                "threshold": 10011,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/elf/axe"
+                }
+            }
+        ]
+    }
+}

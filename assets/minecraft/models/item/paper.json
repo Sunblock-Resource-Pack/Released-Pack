@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": 
+  [
+	
+    { "predicate": { "custom_model_data": 20001 }, "model": "minewave:item/cosmetics/hats/crab_hat"},
+    { "predicate": { "custom_model_data": 20002 }, "model": "minewave:item/cosmetics/hats/ice_cream_cone_hat"},
+    { "predicate": { "custom_model_data": 20003 }, "model": "minewave:item/cosmetics/hats/farmer_hat"},
+    { "predicate": { "custom_model_data": 20004 }, "model": "minewave:item/cosmetics/hats/gold_top_hat"},
+	
+    { "predicate": { "custom_model_data": 20005 }, "model": "minewave:item/cosmetics/summer_hats/surf_board_hat"},
+    { "predicate": { "custom_model_data": 20006 }, "model": "minewave:item/cosmetics/summer_hats/shark_hat"},
+	
+    { "predicate": { "custom_model_data": 20007 }, "model": "minewave:item/cosmetics/christmas_hats/santa_hat"},
+    { "predicate": { "custom_model_data": 20008 }, "model": "minewave:item/cosmetics/christmas_hats/elf_hat"},
+    { "predicate": { "custom_model_data": 20009 }, "model": "minewave:item/cosmetics/christmas_hats/nutcracker_hat"},
+    { "predicate": { "custom_model_data": 20010 }, "model": "minewave:item/cosmetics/christmas_hats/grinch_hat"},
+	
+    { "predicate": { "custom_model_data": 20011 }, "model": "minewave:item/cosmetics/spring_hats/sun_hat"},
+    { "predicate": { "custom_model_data": 20012 }, "model": "minewave:item/cosmetics/spring_hats/raining_cloud_hat"},
+    { "predicate": { "custom_model_data": 20013 }, "model": "minewave:item/cosmetics/spring_hats/butterfly_hat"},
+    { "predicate": { "custom_model_data": 20014 }, "model": "minewave:item/cosmetics/spring_hats/adventure_hat"},
+    { "predicate": { "custom_model_data": 20015 }, "model": "minewave:item/cosmetics/christmas_hats/christmas_hat"}
+  ]
+}

@@ -1,0 +1,117 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        },
+        "entries": [
+            {
+                "threshold": 20001,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/hats/crab_hat"
+                }
+            },
+            {
+                "threshold": 20002,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/hats/ice_cream_cone_hat"
+                }
+            },
+            {
+                "threshold": 20003,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/hats/farmer_hat"
+                }
+            },
+            {
+                "threshold": 20004,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/hats/gold_top_hat"
+                }
+            },
+            {
+                "threshold": 20005,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/summer_hats/surf_board_hat"
+                }
+            },
+            {
+                "threshold": 20006,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/summer_hats/shark_hat"
+                }
+            },
+            {
+                "threshold": 20007,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/christmas_hats/santa_hat"
+                }
+            },
+            {
+                "threshold": 20008,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/christmas_hats/elf_hat"
+                }
+            },
+            {
+                "threshold": 20009,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/christmas_hats/nutcracker_hat"
+                }
+            },
+            {
+                "threshold": 20010,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/christmas_hats/grinch_hat"
+                }
+            },
+            {
+                "threshold": 20011,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/spring_hats/sun_hat"
+                }
+            },
+            {
+                "threshold": 20012,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/spring_hats/raining_cloud_hat"
+                }
+            },
+            {
+                "threshold": 20013,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/spring_hats/butterfly_hat"
+                }
+            },
+            {
+                "threshold": 20014,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/spring_hats/adventure_hat"
+                }
+            },
+            {
+                "threshold": 20015,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/cosmetics/christmas_hats/christmas_hat"
+                }
+            }
+        ]
+    }
+}

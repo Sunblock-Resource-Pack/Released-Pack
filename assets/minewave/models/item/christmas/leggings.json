@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minewave:item/christmas/legs",
+    "layer1": "minewave:item/christmas/legs"
+  }
+}

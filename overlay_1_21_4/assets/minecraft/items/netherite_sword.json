@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_sword"
+        },
+        "entries": [
+            {
+                "threshold": 10001,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/bloodkin/sword"
+                }
+            },
+            {
+                "threshold": 10004,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/neptune/sword"
+                }
+            },
+            {
+                "threshold": 10005,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/turkey/sword"
+                }
+            },
+            {
+                "threshold": 10010,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/christmas/sword"
+                }
+            },
+            {
+                "threshold": 10011,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/elf/sword"
+                }
+            },
+            {
+                "threshold": 10012,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/newyears/sword"
+                }
+            }
+        ]
+    }
+}

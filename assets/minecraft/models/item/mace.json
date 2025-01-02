@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "item/mace"
+  },
+"overrides": 
+[
+  { "predicate": { "custom_model_data": 10001}, "model": "minewave:item/bloodkin/mace"},
+  { "predicate": { "custom_model_data": 10002}, "model": "minewave:item/turkey/hammer"},
+  { "predicate": { "custom_model_data": 10012}, "model": "minewave:item/newyears/mace"}
+]
+}

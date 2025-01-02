@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "minewave:item/neptune/crossbow_pulling_2"
+  }
+}

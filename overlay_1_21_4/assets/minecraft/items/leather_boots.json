@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/leather_boots"
+        },
+        "entries": [
+            {
+                "threshold": 10001,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/bloodkin/boots"
+                }
+            },
+            {
+                "threshold": 10003,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/neptune/armor/boots"
+                }
+            },
+            {
+                "threshold": 10004,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/turkey/boots"
+                }
+            },
+            {
+                "threshold": 10010,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/christmas/boots"
+                }
+            },
+            {
+                "threshold": 10011,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/elf/boots"
+                }
+            },
+            {
+                "threshold": 10012,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/newyears/boots"
+                }
+            }
+        ]
+    }
+}

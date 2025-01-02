@@ -1,0 +1,24 @@
+{
+   "pack":{
+      "pack_format":41,
+      "description":"§fSunblock's §fResource Pack"
+   },
+   "overlays":{
+      "entries":[
+         {
+            "directory":"overlay_1_21_2",
+            "formats":[
+               42,
+               42
+            ]
+         },
+         {
+            "directory":"overlay_1_21_4",
+            "formats":[
+               46,
+               46
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_pickaxe"
+        },
+        "entries": [
+            {
+                "threshold": 10001,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/bloodkin/pickaxe"
+                }
+            },
+            {
+                "threshold": 10003,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/neptune/pickaxe"
+                }
+            },
+            {
+                "threshold": 10004,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/turkey/pickaxe"
+                }
+            },
+            {
+                "threshold": 10010,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/christmas/pickaxe"
+                }
+            },
+            {
+                "threshold": 10011,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/elf/pickaxe"
+                }
+            },
+            {
+                "threshold": 10012,
+                "model": {
+                    "type": "model",
+                    "model": "minewave:item/newyears/pickaxe"
+                }
+            }
+        ]
+    }
+}
